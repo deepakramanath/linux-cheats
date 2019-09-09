@@ -38,12 +38,12 @@ Key | Effect
 `x` | Delets current character
 `[0-9]x` | Delets the total nmber of charactes. `3x` for example, delets 3 characters
 `dd` | Delete current line
-`[0-9]dd` | Delets the total number of lines. `3dd` delets 3 lines from curson 
+`[0-9]dd` | Delets the total number of lines. `3dd` delets 3 lines from cursor
 `dw` | Delets one word from the current position to the begining of next word
 `d$` | Delets from current cursor to end of current line
-`d0` | Delets from current curson to beginning of current line
+`d0` | Delets from current cursor to beginning of current line
 `dG` | Delets everything from cursor to end of file (EOL)
-`d[0-9]G` | Delets from current line to number. `d15G` delets from curson to 15 line
+`d[0-9]G` | Delets from current line to number. `d15G` delets from cursor to 15 line
 
 
 Text Copying Commands
@@ -52,12 +52,12 @@ Text Copying Commands
 Key | Effect
 ----| ------
 `yy` | Copies current line
-`[0-9]yy` |Copies the total number of lines. `3yy` copies 3 lines from curson
+`[0-9]yy` |Copies the total number of lines. `3yy` copies 3 lines from cursor
 `yw` | Copies one word from the current position to the begining of next word
 `y$` | Copies from current cursor to end of current line
-`y0` | Copies from current curson to beginning of current line
+`y0` | Copies from current cursor to beginning of current line
 `yG` | Copies everything from cursor to end of file (EOL)
-`y[0-9]G` | Copies from current line to number. `y15G` copies from curson to 15 line
+`y[0-9]G` | Copies from current line to number. `y15G` copies from cursor to 15 line
 
 
 
