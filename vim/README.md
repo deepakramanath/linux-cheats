@@ -52,12 +52,24 @@ Text Copying Commands
 Key | Effect
 ----| ------
 `yy` | Copies current line
-`[0-9]yy` |Copies the total number of lines. `3yy` copies 3 lines from cursor
+`[0-9]yy` | Copies the total number of lines. `3yy` copies 3 lines from cursor
 `yw` | Copies one word from the current position to the begining of next word
 `y$` | Copies from current cursor to end of current line
 `y0` | Copies from current cursor to beginning of current line
 `yG` | Copies everything from cursor to end of file (EOL)
 `y[0-9]G` | Copies from current line to number. `y15G` copies from cursor to 15 line
+
+Buffers
+-------
+
+Key | Effect
+----| ------
+`:e <file_name>` | Opens new file in buffer
+`:bn` | Buffer next, open the newly loaded or previous file
+`:bp` | Buffer previous, open the previously loaded file
+`:bd` | Buffer delete (closes the currently opened file)
+`:buffers` | Lists the buffers loaded
+`:b[0-9]` | Buffer number. For example, `:b2` opens second buffer
 
 
 
